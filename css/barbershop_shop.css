@@ -34,7 +34,7 @@ html,body{
 	height:20px;
 	margin-right:10px;
 }
-a.shop{
+a.active{
 	border-bottom:solid white 5px;
 }
 .user-block {
@@ -109,7 +109,7 @@ a.login{
 	padding:10px;
 	float:left;
 }
-.move{
+.pagination{
 	clear:both;
 	margin:auto; 
 	float:left;
