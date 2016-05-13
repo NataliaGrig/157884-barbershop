@@ -17,31 +17,32 @@ html,body{
 	padding-top:20px; 
 	background-color:#000000;
 }
-.menu {
-	padding-top:20px;
+.logo {
+	float:left;
+	width:120px;
+}
+.logo>img {
+	height:30px;
+	width:120px;	
 }
 .main-navigation{
+	margin-left:10px;
 	float:left;
-	width:780px;
+	width:700px;
 	min-height:70px;
 }
 .main-navigation>a{
 	color:#ffffff;
 	text-decoration:none;
-	padding-bottom:42px;
+	padding-bottom:50px;
 	margin-right:10px;
 }
-.main-navigation>img{
-	width:100px; 
-	height:20px;
-	margin-right:10px;
-}
-a.shop{
-	border-bottom:solid white 5px;
+a.active {
+	border-bottom:5px solid #ffffff;
 }
 .user-block {
 	float: right;
-	width: 140px;
+	width: 100px;
 	min-height:70px;
 }
 a.login{

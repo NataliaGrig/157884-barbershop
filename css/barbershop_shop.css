@@ -17,34 +17,37 @@ html,body{
 	padding-top:20px; 
 	background-color:#000000;
 }
-.main-navigation{
+.logo {
 	float:left;
-	width:780px;
+	width:120px;
+}
+.logo>img {
+	height:30px;
+	width:120px;	
+}
+.main-navigation{
+	margin-left:10px;
+	float:left;
+	width:700px;
 	min-height:70px;
-	margin-top:20px;
 }
 .main-navigation>a{
 	color:#ffffff;
 	text-decoration:none;
-	padding-bottom:52px;
+	padding-bottom:50px;
 	margin-right:10px;
 }
-.main-navigation>img{
-	width:100px; 
-	height:20px;
-	margin-right:10px;
-}
-a.active{
-	border-bottom:solid white 5px;
+a.active {
+	border-bottom:5px solid #ffffff;
 }
 .user-block {
 	float: right;
-	width: 140px;
-	min-height: 70px;
-	padding-top:30px;
+	width: 100px;
+	min-height:70px;
 }
 a.login{
 	color:#ffffff;
+	text-decoration:none;
 }
 .breadcrumbs{
 	padding-left:0;
@@ -113,6 +116,7 @@ a.login{
 	clear:both;
 	margin:auto; 
 	float:left;
+	border:1px solid green;
 }
 .enter{
 	background-color:#000000;
