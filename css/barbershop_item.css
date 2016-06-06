@@ -14,40 +14,70 @@ html,body{
 	margin:auto;
 }
 .main-header{
-	padding-top:20px; 
 	background-color:#000000;
+	min-height:20px;
+	font-size:16px;
 }
 .logo {
 	float:left;
 	width:120px;
+	padding-top:20px; 
 }
 .logo>img {
 	height:30px;
 	width:120px;	
 }
 .main-navigation{
-	margin-left:10px;
+	margin-left:15px;
 	float:left;
 	width:700px;
-	min-height:70px;
 }
 .main-navigation>a{
+	display:inline-block;
 	color:#ffffff;
 	text-decoration:none;
-	padding-bottom:50px;
-	margin-right:10px;
+	text-transform:uppercase;
+	padding-bottom:27px;
+	margin-right:15px;
+	margin-left:15px;
+	padding-top:25px;
+	font-weight:bold;
+}
+.main-navigation>a:hover{
+	background-color:#242424;
 }
 a.active {
+	padding-bottom:22px;
 	border-bottom:5px solid #ffffff;
+}
+.main-navigation .active:hover{
+	background-color:#242424;
+	padding-bottom:27px;
+	border-bottom:none;
 }
 .user-block {
 	float: right;
-	width: 100px;
-	min-height:70px;
+	width: 70px;
+	padding-left:30px;
+	padding-top:25px;
+	padding-bottom:27px;
+	text-transform:uppercase;
+}
+.user-block:hover{
+	background-color:#242424;
 }
 a.login{
 	color:#ffffff;
 	text-decoration:none;
+	font-weight:bold;
+}
+.intro {
+	margin-top:55px;
+}
+.intro>h1 {
+	text-transform:uppercase;
+	font-size:30px;
+	font-weight:bold;
 }
 .breadcrumbs{
 	padding-left:0;
@@ -60,15 +90,21 @@ a.login{
 .breadcrumbs a{
 	color:rgb(0,0,0);
 	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
 }
 .breadcrumbs>li:last-child{
-	color:grey;
-	text-decoration:none;}
-.content {margin-bottom: 35px;
+	color:#aba9a7;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+}
+.content {
+	margin-bottom: 35px;
 }
 .pictures{
 	float:left;
-	width: 490px;
+	width: 460px;
 	min-height: 330px;
 	margin-top:40px;
 }
@@ -78,31 +114,52 @@ a.login{
 }
 .small_picture{
 	display:inline-block;
+	width:140px;
+	height:150px;
+	margin-right:15px;
+	margin-top:20px;
+}
+.small_picture:last-child{
+	margin-right:0px;
 }
 .small_picture>img{
 	width:140px; 
 	height:150px;
-	margin-right:15px;
-	margin-top:15px;
 }
 .description{
 	float:right;
-	width: 380px;
+	width: 390px;
 	min-height: 330px;
-	margin-top:80px;
+	margin-top:65px;
+	font-size:14px;
+}
+.here {
+	margin-bottom:40px;
+	font-size:14px;	
+}
+.avialable{
+	float:left;
+	font-weight:bold;
 }
 .articul{
 	float:right;
-	color:#e5e5e5;
-	margin-right:60px;
+	color:#aba9a7;
+	font-weight:bold;
+}
+.buy{
+	margin-top:40px;
+	margin-bottom:50px;
 }
 .price{
-	background-color:#e5e5e5;
+	float:left;
+	background-color:#aba9a7;
 	padding:15px;
 	width:90px;
 	float:left;
 	margin-bottom:20px;
-	margin-left:10px;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:bold;
 }
 .button{
 	width:70px;
@@ -111,12 +168,31 @@ a.login{
 	background-color:#000000;
 	color:#ffffff;
 	margin-bottom:20px;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:bold;
+}
+.button:hover {
+	background-color:#663d15;
+}
+.button:active {
+	background-color:#663d15;
+}
+.description>h2{
+	font-size:24px;
 }
 .list>ul{
 	list-style: square;
-	padding-left:15px;
+	padding-left:15px;	
+	line-height:24px;
+	font-size:14px;
+	font-weight:bold;
 }
 .description>span{
+	font-weight:bold;
+}
+.description>p{
+	line-height:24px;
 	font-weight:bold;
 }
 .main-footer{
@@ -132,16 +208,40 @@ a.login{
 	margin-right:60px;
 	min-height:90px;
 	padding-top:15px;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:24px;
+	font-weight:bold;
 }
 .footer-social{
 	float:left;
-	width:180px;
+	width:250px;
 	min-height:90px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+}
+.footer-social>p{
+	text-transform:uppercase;
+}
+.social-btn{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    vertical-align: middle;
+	background-color:#000000;	
+	margin-top:20px;
+}
+.social-btn:hover{
+	background-color:#ffffff;
 }
 .footer-copyright{
 	float:right;
 	width:180px;
 	min-height:90px;
+	text-align:right;
+	font-size:14px;
 }
 .footer-contacts>a{
 	color:#ffffff;
@@ -150,7 +250,24 @@ a.login{
 	color:#ffffff;
 }
 .footer-copyright>a{
+	display:block;
+	text-transform:uppercase;
 	color:#ffffff;
+	text-decoration:none;
 	background-color:#000000;
-	padding:15px;
+	margin-top:20px;
+	text-align:center;
+	padding:20px;
+	font-weight:bold;
+}
+.footer-copyright>a:hover{
+	background-color:#ffffff;
+	color:#000000;
+}
+.footer-copyright>p{
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	margin-bottom:35px;
+	font-weight:bold;
 }
